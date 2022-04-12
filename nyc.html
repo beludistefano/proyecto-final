@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="recursos/Plane_icon.svg.png">
+        <title>Vamos!</title>
+    </head>
+    <body>
+        <header id="elviaje">
+            <h1>Vamos a New York City</h1>
+            <p>¿Cuándo? Junio 2022</p>
+        </header>
+        <!--TO-DO-->
+        <div class="content" id="content">
+        <section id="seccionGastos">
+            <h2>¿Qué quiero hacer?</h2>
+            <form id="formAct">
+                <p>Ingresa la actividad:</p>
+                <input type="text" placeholder="Nombre de la actividad" id="actividad" required>
+                <p>Ingresa el precio:</p>
+                <input type="number" placeholder="Precio" id="precio" required></br></br>
+                <button class="boton" type="submit">Agregar!</button>
+            </form>
+            <h3>Mis Cosas por Hacer:</h3>
+            <div id="listadecosas"></div>
+            <div id="finanzas">
+                </br>
+            <h4>Total para ahorrar:</h4>
+            <div id="elGasto"></div>
+        </div>
+        </section>
+        <!--PRESUPUESTO-->
+        <section id="seccionAhorro">
+            <h2>¿Cuánto dinero tengo?</h2>
+            <form id="formPresup">
+                <p>Ingresar dinero:</p>
+                <label>US$ </label><input type="number" placeholder="Cantidad" id="cantPresup" required></br></br>
+                <button class="boton" type="submit">Agregar!</button>
+            </form>
+
+            <h3>Mis ahorros:</h1>
+            <div id="presupuesto">
+                <p>Total Ahorrado:</p>
+                <div id="elPresu">
+            </div>
+
+            <h3>Cotización USD</h3>
+            <div id="usd">
+                <button class="boton" type="submit">Obtener cotización actual</button>
+            </div> </br>
+
+            <div id="cotizacion"></div>
+        </div>
+        </section>
+
+    </div>
+<!--
+        <div id="bottom">
+        <h2>Todo listo?</h2>
+        <p class="boton"><a href="index-gastos.html">Vamos!</a></p>
+        </div>
+    -->
+    <footer id="footer">
+        <p>Diseñado por M. Belen Di Stefano - 2022</p>
+    </footer>
+    </body>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="index2.js"></script>
+</html>

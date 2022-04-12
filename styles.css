@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Righteous&display=swap');
+
+/*font-family: 'Didact Gothic', sans-serif;
+font-family: 'Righteous', cursive;*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("recursos/fondo2.jpg");
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Righteous', cursive;
+    text-shadow: 1px 1px #8a94a6;
+}
+
+h1{
+    font-size: 45px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    font-size: 25px;
+}
+
+header{
+    font-family: 'Righteous', cursive;
+    padding: 30px;
+    text-align: center;
+}
+
+header>h1{
+    text-shadow: 1px 1px #8a94a6;
+    margin-top: 10px;
+    font-size: 50px;
+    color: #00284C;
+}
+
+header>p{
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#bottom{
+    padding: 30px;
+    text-align: center;   
+}
+
+.boton{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    width: fit-content;
+    color: white; 
+    background-color: #00284C;
+    margin: 0px auto;
+    border-radius: 10%;
+    box-shadow: 1px 1px #00284C;
+    transition: all 400ms;
+}
+
+.boton:hover{
+    background-color:  #084B83;
+    box-shadow: 2px 2px 2px #00284C;
+}
+
+.boton>a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px #00284C;
+}
+
+#bottom>h2{
+    margin-bottom: 10px;
+}
+
+.content{
+    background-color: whitesmoke;
+    border-radius: 2%;
+    box-shadow: 5px 5px 5px grey;
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+}
+
+#content>section{
+    width: 50%;
+    padding: 20px;
+}
+
+#content>section>h2{
+   text-align: center;
+}
+
+#content>section>h2, h3{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#content>section>form{
+    margin-bottom: 35px;
+}
+
+#content>section>form>p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#login-container{
+    background-color: whitesmoke;
+    border-radius: 2%;
+    box-shadow: 5px 5px 5px grey;
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+}
+
+#login-container>form{
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+#login-container>form>p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#login-container>form>input{
+    line-height: 24px;
+    padding: 5px;
+}
+
+input{
+    line-height: 24px;
+    padding: 5px;
+}
+
+.content-unico{
+    background-color: whitesmoke;
+    border-radius: 2%;
+    box-shadow: 5px 5px 5px grey;
+    width: 90%;
+    margin: auto;
+    padding: 25px;
+}
+
+
+
+.trip{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #8a94a6;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.trip-content{
+    width: 90%;
+    align-items: flex-start;
+}
+
+.vamos{
+    justify-self: center;
+}
+
+.more{
+    border-radius: 50% !important;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+}
+
+#more{
+    text-align: right;
+    margin-right: 20px;
+}
+
+#footer{
+    padding: 15px;
+    text-align: center;
+}
+
+#footer>p{
+    font-size: 12px;
+}
+
+.boton-small{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 10px;
+    width: fit-content;
+    color: white; 
+    background-color: #DE2A2A;
+    margin: 0px auto;
+    border-radius: 10%;
+    box-shadow: 1px 1px #790f0f;
+    transition: all 400ms;
+}
+
+.boton-small:hover{
+    background-color:  #d85e5e;
+    box-shadow: 2px 2px 2px #790f0f;
+}
+
+.boton-small>a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px grey;
+}
+
+.js-content{
+    font-size: 20px !important;
+}
+
+.boton-js{
+    text-align: right;
+}
