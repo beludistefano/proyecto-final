@@ -171,8 +171,26 @@ botonUsd.addEventListener("click", (e) =>{
     })
 })
 
+let botonBorrar = document.getElementById("borrarAhorro")
+let botonReset = document.getElementById("resetear")
 
+botonBorrar.addEventListener("click", (e) =>{
+    e.preventDefault();
+    Swal.fire({
+        icon: 'error',
+        title: '¡TRAMPOSO!',
+        text: '¡No podes usar tus ahorros!',
+      })
+})
 
+botonReset.addEventListener("click", (e) =>{
+    e.preventDefault();
+    presupuestoViaje = 0;
+    localStorage.setItem("Presup", JSON.stringify(presupuestoViaje))
+    elPresu.innerHTML = `
+    <p> ${presupuestoViaje} </p>
+    `
+})
 
 
 
