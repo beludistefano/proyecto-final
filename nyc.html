@@ -3,6 +3,8 @@
     <head>
         <link rel="stylesheet" type="text/css" href="styles.css">
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+        <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/sweetalert2@8/dist/sweetalert2.min.css">
         <meta charset="UTF-8">
         <link rel="shortcut icon" href="recursos/Plane_icon.svg.png">
         <title>Vamos!</title>
@@ -44,7 +46,11 @@
             <div id="presupuesto">
                 <p>Total Ahorrado:</p>
                 <div id="elPresu">
-            </div>
+            </div></br> 
+            <div id="botones-borrar">
+                <button class="boton" id="borrarAhorro" type="submit">Borrar Monto</button>
+                <button class="boton" id="resetear" type="submit">Reset</button>
+            </div></br>
 
             <h3>Cotización USD</h3>
             <div id="usd">
@@ -68,5 +74,6 @@
     </body>
 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script type="text/javascript" src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script src="index2.js"></script>
 </html>
